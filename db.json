@@ -1,7 +1,7 @@
 {
   "drinks": [
     {
-      "idDrink": "11007",
+      "idDrink": "1",
       "strDrink": "Margarita",
       "strDrinkAlternate": null,
       "strTags": "IBA,ContemporaryClassic",
@@ -54,7 +54,7 @@
       "dateModified": "2015-08-18 14:42:59"
     },
     {
-      "idDrink": "11118",
+      "idDrink": "2",
       "strDrink": "Blue Margarita",
       "strDrinkAlternate": null,
       "strTags": null,
@@ -107,7 +107,7 @@
       "dateModified": "2015-08-18 14:51:53"
     },
     {
-      "idDrink": "17216",
+      "idDrink": "3",
       "strDrink": "Tommy's Margarita",
       "strDrinkAlternate": null,
       "strTags": "IBA,NewEra",
@@ -160,7 +160,7 @@
       "dateModified": "2017-09-02 18:37:54"
     },
     {
-      "idDrink": "16158",
+      "idDrink": "4",
       "strDrink": "Whitecap Margarita",
       "strDrinkAlternate": null,
       "strTags": null,
@@ -213,7 +213,7 @@
       "dateModified": "2015-09-02 17:00:22"
     },
     {
-      "idDrink": "12322",
+      "idDrink": "5",
       "strDrink": "Strawberry Margarita",
       "strDrinkAlternate": null,
       "strTags": null,
@@ -266,7 +266,7 @@
       "dateModified": "2015-08-18 14:41:51"
     },
     {
-      "idDrink": "178332",
+      "idDrink": "6",
       "strDrink": "Smashed Watermelon Margarita",
       "strDrinkAlternate": null,
       "strTags": null,
