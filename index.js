@@ -99,11 +99,14 @@ function drinkDisplayer(drinkID) {
   }
   ingredients.appendChild(ul);
 }
-
+//Eventlistener functionality on cards. pop up on mouse hover
 let cards = document.querySelectorAll('.card');
 cards.forEach(card => {
   card.addEventListener('mouseover', function() {
     card.style.transform = 'scale(1.1)';
+  })
+  card.addEventListener('mouseout', function() {
+    card.style.transform = 'scale(1)';
   })
 })
 
