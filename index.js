@@ -80,9 +80,9 @@ function drinkDisplayer(drinkID) {
   //ingredients and procedure
   const nameCocktail = document.getElementById("nameIngredientSection");
   nameCocktail.textContent = currentDisplay.strDrink;
-    //procedure
-    const procedure = document.getElementById('procedure')
-    procedure.textContent=currentDisplay.strInstructions
+  //procedure
+  const procedure = document.getElementById("procedure");
+  procedure.textContent = currentDisplay.strInstructions;
 
   //adding ingredients
   const ingredients = document.getElementById("ingredients");
@@ -90,7 +90,9 @@ function drinkDisplayer(drinkID) {
   for (let i = 1; i <= 5; i++) {
     const li = document.createElement("li");
     if (currentDisplay["strIngredient" + i]) {
+      li.textContent = '';
       li.textContent = currentDisplay["strIngredient" + i];
+
       ul.appendChild(li);
     }
   }
