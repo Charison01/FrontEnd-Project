@@ -110,4 +110,11 @@ cards.forEach(card => {
   })
 })
 
+//Event listener for submit button
+let form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  alert('Thank you for submitting your information! You will receive the cocktail recipe shortly.');
+})
+
 fetchingData();
