@@ -5,7 +5,7 @@ let drinkData = [];
 let drinkID = 1;
 
 //variable hlding the api
-const apiURL = "http://localhost:3000/drinks";
+const apiURL = "https://my-json-server.typicode.com/Charison01/FrontEnd-Project/drinks";
 
 //Fetching data from api
 async function fetchingData() {
