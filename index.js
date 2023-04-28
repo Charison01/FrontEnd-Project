@@ -59,6 +59,7 @@ function populateMenu2() {
   cocktailMenu.addEventListener("click", (event) => {
     drinkID = event.target.id;
     drinkDisplayer(drinkID);
+   
   });
   drinkDisplayer(drinkID);
 }
@@ -98,5 +99,10 @@ function drinkDisplayer(drinkID) {
   }
   ingredients.appendChild(ul);
 }
+
+let card = document.querySelector('.card');
+card.addEventListener('mouseover', function() {
+  card.style.transform = 'scale(1.1)';
+})
 
 fetchingData();
