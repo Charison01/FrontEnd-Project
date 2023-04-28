@@ -24,6 +24,7 @@ nav{
     height: "80px";
     width: 100%;
     display: flex;
+    color: black;
 }
 
 label.logo{
