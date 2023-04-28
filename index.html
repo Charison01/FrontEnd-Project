@@ -12,52 +12,163 @@
   <body>
     <!--Navigation Bar-->
     <nav>
-        <!-- <input type="checkbox" id="check">
+      <!-- <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label> -->
-        <label for="#" class="logo">CockTail Best</label>
-        <ul>
-          <li><a class = "active" href="">Collections</a></li>
-          <li><a href="">Top Tastes</a></li>
-          <li><a href="">Season</a></li>
-          <li><a href="">Stories</a></li>
-        </ul>
+      <label for="#" class="logo">CockTail Best</label>
+      <ul>
+        <li><a class="active" href="">Collections</a></li>
+        <li><a href="">Top Tastes</a></li>
+        <li><a href="">Season</a></li>
+        <li><a href="">Stories</a></li>
+      </ul>
     </nav>
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="card">
-                    <h4>CockTail Menu</h4>
-                    <ul>
-                        <li>Classic Margarita</li>
-                        <li>Frozen Margarita</li>
-                        <li>Spicy Margarita</li>
-                        <li>Cerveza Margaritas</li>
-                        <li>Tommy’s Margarita</li>
-                        <li>Strawberry Margarita</li>
-                    </ul>
-                
-                </div>
-                <div class="card">
-                    <h4>Whats a CockTail</h4>
-                    <p>Best Cocktail Quotes Here are six types of Margarita cocktails you can try:</p>
-                    <img src="./assets/background1.jpg" >
-                </div>
-                <div class="card">
-                    <div class="form">
-                        <h3>Register to Receive Copy of Recipe</h3><br><br>
-                        <form>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name"><br><br>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" placeholder="johndoe@email.com"><br><br>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="card" id="menu">
+            <h4>CockTail Menu</h4>
+            <ul>
+              <li>Classic Margarita</li>
+              <li>Frozen Margarita</li>
+              <li>Spicy Margarita</li>
+              <li>Cerveza Margaritas</li>
+              <li>Tommy’s Margarita</li>
+              <li>Strawberry Margarita</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Whats a CockTail</h4>
+            <p>
+                “No amount of physical contact could match the healing powers of a well made cocktail.” — David Sedaris
+            </p>
+            <img src="./assets/background1.jpg" />
+          </div>
+          <div class="card">
+            <div class="form">
+              <h3>Register to Receive Copy of Recipe</h3>
+              <br /><br />
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" /><br /><br />
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="johndoe@email.com"
+                /><br /><br />
+                <input type="submit" value="Submit" />
+              </form>
             </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------- -->
+    <section class="container" id="recipe">
+        <div class="card">
+          <div class="card-header">
+            <h4>Cocktails</h4>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Margarita</li>
+              <li>Long Island Iced Tea</li>
+              <li>Mojito</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-header">
+            <h4>Long Island Iced Tea</h4>
+          </div>
+          <div class="card-body">
+            <img src="https://www.thecocktaildb.com/images/media/drink/ywxwqs1439906072.jpg" alt="Long Island Iced Tea" />
+            <p>Category: Cocktail</p>
+            <p>Glass to Use: Collins Glass</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-header">
+            <h4>Long Island Iced Tea Recipe</h4>
+          </div>
+          <div class="card-body">
+            <h5>Ingredients:</h5>
+            <ul>
+              <li>1/2 oz Vodka</li>
+              <li>1/2 oz Rum</li>
+              <li>1/2 oz Gin</li>
+              <li>1/2 oz Tequila</li>
+              <li>1 oz Sour Mix</li>
+              <li>Splash of Cola</li>
+            </ul>
+  
+            <h5>Procedure:</h5>
+  
+            <p>Mix all ingredients together in a glass with ice. Garnish with a lemon wedge and serve.</p>
+          </div>
+        </div>
+      </section>
+    <!-- --------------------------------------------------- -->
+    <section class="container2">
+      <h4>Try Our Cocktail Recipe</h4>
+      <p>
+        "It is such an honor to have you try one of our recipes and give us
+        feedback."
+      </p>
+    </section>
+<!-- --------------------------------------------------------- -->
+    <!-- <section class="container3">
+      <div class="cards2">
+        <div class="card-header">
+          <h4>Cocktails</h4>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>Margarita</li>
+            <li>Long Island Iced Tea</li>
+            <li>Mojito</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cards2">
+        <div class="card-header">
+          <h4>Long Island Iced Tea</h4>
+        </div>
+        <div class="card-body">
+          <img
+            src="https://www.thecocktaildb.com/images/media/drink/ywxwqs1439906072.jpg"
+            alt="Long Island Iced Tea"
+          />
+          <p>Category: Cocktail</p>
+          <p>Glass: Collins Glass</p>
+        </div>
+      </div>
+      <div class="cards2">
+        <div class="card-header">
+          <h4>Long Island Iced Tea Recipe</h4>
+        </div>
+        <div class="card-body">
+          <h5>Ingredients</h5>
+          <ul>
+            <li>1/2 oz Vodka</li>
+            <li>1/2 oz Rum</li>
+            <li>1/2 oz Gin</li>
+            <li>1/2 oz Tequila</li>
+            <li>1 oz Sour Mix</li>
+            <li>Splash of Cola</li>
+          </ul>
+          <h5>Procedure</h5>
+          <p>
+            Mix all ingredients together in a glass with ice. Garnish with a
+            lemon wedge and serve.
+          </p>
+        </div>
+      </div>
     </section>
   </body>
-</html>
+</html> -->
