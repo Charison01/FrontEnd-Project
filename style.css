@@ -74,7 +74,7 @@ a:hover{
 
 .row{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -112,10 +112,11 @@ a:hover{
 .card li{
     text-emphasis:none;
     margin-left: 10%;
-    text-align: center;
+    text-align: left;
     font-size: large;
     font-weight: 1000;
     margin-top: 0%;
+    z-index: 999;
     
 }
 .form{
@@ -132,6 +133,15 @@ a:hover{
 }
 .form h3{
     color: blanchedalmond;
+}
+.form #email{
+    color: black;
+}
+.form label{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 7px;
 }
 
 section{
