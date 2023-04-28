@@ -7,13 +7,23 @@
 }
 
 body{
-    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-image: url("https://img.freepik.com/free-photo/red-iced-cocktail-table_140725-9712.jpg?w=360&t=st=1682629151~exp=1682629751~hmac=d3af8af53efb1fdcdb8224bc2b2404a8727b75789620fabe729cde6e68d14fc9"); */
+    /* background-image: url("https://img.freepik.com/free-vector/realistic-alcoholic-beverages-template-with-frame-text-alcohol-cocktails-shot-drinks-mint-leaves-ice-cubes-fruits-slices_1284-50853.jpg?size=626&ext=jpg"); */
+    display:block;
+    background: white;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    min-height: 100vh;
+    width: 100%;
 }
 
 nav{
     background-color: rgb(248, 207, 47);
     height: "80px";
     width: 100%;
+    display: flex;
 }
 
 label.logo{
@@ -21,4 +31,111 @@ label.logo{
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+} 
+
+nav ul li a{
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+a:hover{
+    background: #121212;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    /* background-color: white; */
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 0%;
+    display: flex;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.card{
+    flex: 1;
+    display: grid;
+    background: white;
+    /* width: 100%; */
+    width: 350px;
+    height: 100% !important; 
+    flex: 1 1 21rem;
+    margin: 10px 20px;
+    box-shadow: 0 0 15px;
+    border-radius: 5px;
+
+
+}
+
+.card img{
+    max-width: 100%;
+    height: auto
+
+}
+
+.card h4{
+    font-size: 25pt;
+    text-align:center;
+}
+.card p{
+    font: size 20px;
+    padding: 5px;
+}
+.card li{
+    text-emphasis:none;
+    margin-left: 10%;
+    text-align: center;
+    font-size: large;
+    font-weight: 1000;
+    margin-top: 0%;
+    
+}
+.form{
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-vector/cocktails-set-realistic-composition_1284-24384.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-style: wavy;
+    color: rgb(82, 8, 135);
+}
+.form h3{
+    color: blanchedalmond;
+}
+
+section{
+    margin-top: 0%;
+    background-image: url('https://img.freepik.com/free-photo/rose-exotic-cocktail-fruit-blue_155003-12660.jpg?size=626&ext=jpg');
+
 }
