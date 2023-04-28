@@ -100,9 +100,11 @@ function drinkDisplayer(drinkID) {
   ingredients.appendChild(ul);
 }
 
-let card = document.querySelector('.card');
-card.addEventListener('mouseover', function() {
-  card.style.transform = 'scale(1.1)';
+let cards = document.querySelectorAll('.card');
+cards.forEach(card => {
+  card.addEventListener('mouseover', function() {
+    card.style.transform = 'scale(1.1)';
+  })
 })
 
 fetchingData();
